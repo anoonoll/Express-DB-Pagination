@@ -19,5 +19,18 @@
     "morgan": "~1.9.1",
     "mysql": "^2.18.1",
     "xml2js": "^0.4.23"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hanae05/Express-DB-Pagination.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hanae05/Express-DB-Pagination/issues"
+  },
+  "homepage": "https://github.com/Hanae05/Express-DB-Pagination#readme",
+  "description": ""
 }
