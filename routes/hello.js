@@ -206,7 +206,7 @@ router.post('/find', (req, res, next) => {
     })
 });
 
-Bookshelf.plugin('pagination');
+
 
 router.get('/:page', (req, res, next) => {
     var pg = req.params.page;
