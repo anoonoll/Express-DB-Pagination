@@ -4,7 +4,7 @@ var mysql = require('mysql');
 
 //★以下を追加
 var knex = require('knex')({
-    dialect: 'mysql',
+    client: 'mysql',
     connection: {
         host    : 'localhost',
         user    : 'root',
