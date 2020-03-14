@@ -206,8 +206,6 @@ router.post('/find', (req, res, next) => {
     })
 });
 
-
-
 router.get('/:page', (req, res, next) => {
     var pg = req.params.page;
     pg *= 1;
@@ -216,9 +214,9 @@ router.get('/:page', (req, res, next) => {
         var data = {
             title: 'Hello!',
             content: collection.toArray(),
-            pagination:collection.pagenation
+            pagination:collection.pagination
         };
-        console.log(collection.pagenation);
+        console.log(collection.pagination);
         res.render('hello/index', data);
     })
     .catch((err) => {
